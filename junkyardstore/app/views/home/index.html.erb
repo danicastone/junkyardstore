@@ -1,0 +1,24 @@
+
+<h4 class="column">Featured Products</h4>
+<div class="column">
+  <ul class="product-grid no-bullet row">
+    <% @products.each do |product| %>
+      <li class="large-3 medium-4 small-12 column">
+        <div class="product-card padly">
+          <%= link_to product, class: "photo" do %>
+            <%= image_tag product.photo %>
+          <% end %>
+          <div class="product-info ell glassy-bg padmy padlx">
+            <div class="title">
+              <h6><%= product.title %> <span>(<%= product.release_year %>)</span></h6>
+            </div>
+            <p class="left price label product-label radius">$ <%= product.price %></p>
+            <%= link_to movie.imdb, class: "right" do %>
+              <%= image_tag asset_path("photo.gif") %>
+            <% end %>
+          </div>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+</div>

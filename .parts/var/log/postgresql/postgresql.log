@@ -1,0 +1,28 @@
+LOG:  database system was shut down at 2015-01-06 01:51:57 UTC
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-01-06 01:52:01 UTC
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  database "junkyardstore_dev" already exists
+STATEMENT:  CREATE DATABASE "junkyardstore_dev" ENCODING = 'unicode'
+ERROR:  database "junkyardstore_test" already exists
+STATEMENT:  CREATE DATABASE "junkyardstore_test" ENCODING = 'unicode'
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-01-07 05:00:36 UTC
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-01-07 23:00:36 UTC
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
