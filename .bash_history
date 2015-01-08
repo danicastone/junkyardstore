@@ -184,3 +184,25 @@ git push heroku master
 git status
 heroku labs:enable user-env-compile
 heroku labs:enable 
+git remote add heroku git@heroku.com:junkyardstore.git
+git push heroku master
+git pull --rebase
+git commit "adding stylesheets"
+git commit -a "adding stylesheets"
+git status -s
+git commit -m "adding stylesheets"
+git add .
+git commit -m "adding stylesheets"
+git push heroku master
+heroku login
+git push heroku master
+ls 
+cd junkyardstore
+ls
+git push heroku master
+rm -rf .git
+git init
+git add .
+git commit -am "Reinitializing"
+heroku create --stack cedar
+git push heroku master
