@@ -164,3 +164,23 @@ ls
 cd app/views/home
 ls
 pico index*
+action heroku
+heroku login
+heroku keys:add
+git init
+git add
+git add .
+git commit -m "initializing git"
+git config --global user.email "danicastone@gmail.com"
+git config --global user.name "danicastone"
+git commit -m "initializing git"
+git commit -m "initializing git"
+heroku create junkyardstore
+heroku create junkyardstore
+heroku create junkyardstore
+heroku create junkyardstore
+git push heroku master
+git push heroku master
+git status
+heroku labs:enable user-env-compile
+heroku labs:enable 
