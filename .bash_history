@@ -240,3 +240,24 @@ nano app*
 git push heroku master
 git push -f heroku master
 git init --bare repo.git
+gem devise
+gem install devise
+git push heroku master
+git add .
+git commit -m "added devise"
+git push heroku master
+git push -f heroku master
+heroku ps:scale web=1
+heroku login 
+heroku ps:scale web=1
+rails server
+rails server
+ls
+cd junkyardstore
+rails server
+rails server|more
+rails server|more
+rails s
+nano config/application.rb
+rake assets:precompile
+rake assets:precompile --trace
