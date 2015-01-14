@@ -206,3 +206,37 @@ git add .
 git commit -am "Reinitializing"
 heroku create --stack cedar
 git push heroku master
+git commit -am "Reinitializing"
+git add *
+git status
+git add
+git add .
+git status
+git commit -am "Reinitializing"
+git status
+git remote add origin https://github.com/danicastone/junkyardstore.git
+git push -u origin master
+git push heroku master
+heroku login
+heroku git:remote -a junkyardstore
+git push heroku master
+git push heroku master
+git push heroku master
+git push heroku master
+heroku keys:add
+git push heroku master
+heroku config:set BUILDPACK_URL=https://github.com//heroku/heroku-buildpack-ruby
+git push heroku master
+git push heroku-cedar-14 master
+heroku stack:set cedar-14
+git push heroku master
+ls
+pwd
+cd junkyardstore
+nano Procfile
+git push heroku master
+cd config
+nano app*
+git push heroku master
+git push -f heroku master
+git init --bare repo.git
